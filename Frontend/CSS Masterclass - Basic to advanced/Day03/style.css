@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Ghastly;
+    src: url(Ghastly\ Panic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+div{
+    height: 100%;
+    width: 100%;
+    background: url(https://i.pinimg.com/736x/f8/2e/f1/f82ef1849ff53ff95b421ba0cc05cc69.jpg);
+    background-size: cover;
+    background-position: center;
+    color: lightcyan;
+    font-size: 50px;
+    font-family: "Ghastly";
+    font-weight: 900;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+}
